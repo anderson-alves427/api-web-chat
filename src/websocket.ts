@@ -25,7 +25,8 @@ io.on("connection", (socket) => {
             id_pessoa_remetente: data.id_pessoa_remetente,
             id_pessoa_destinatario: data.id_pessoa_destinatario,
             message: data.message,
-            data: '08:00'
+            data: '08:00',
+            nome_destinatario: data.nome_destinatario
         }
         
         console.log('messagess', message)
